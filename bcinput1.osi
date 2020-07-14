@@ -1,0 +1,33 @@
+Bolt.Bolt_Hole_Type: Standard
+Bolt.Diameter:
+- '12'
+- '22'
+Bolt.Grade:
+- '4.6'
+- '8.8'
+Bolt.Material_Grade_OverWrite: '410'
+Bolt.Slip_Factor: '0.3'
+Bolt.TensionType: Pretensioned
+Bolt.Type: Bearing Bolt
+Connectivity: Column flange-Beam web
+Connector.Material: E 250 (Fe 410 W)A
+Connector.Plate.Thickness_List:
+- '10'
+- '22'
+Design.Design_Method: Limit State Design
+Detailing.Corrosive_Influences: 'No'
+Detailing.Edge_type: a - Sheared or hand flame cut
+Detailing.Gap: '10'
+EndPlateType: Extended Both Ways
+Load.Axial: '10'
+Load.Moment: '50'
+Load.Shear: '40'
+Material: E 250 (Fe 410 W)A
+Member.Supported_Section.Designation: MB 350
+Member.Supported_Section.Material: E 250 (Fe 410 W)A
+Member.Supporting_Section.Designation: HB 400
+Member.Supporting_Section.Material: E 250 (Fe 410 W)A
+Module: Fin Plate
+Weld.Fab: Shop Weld
+Weld.Material_Grade_OverWrite: '410'
+Weld.Type: Fillet Weld
